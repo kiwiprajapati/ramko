@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: RAMKO ::</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.css?v=2">
+    <link rel="stylesheet" href="css/slick-slider.css">
+    <link rel="stylesheet" href="css/jquery.mmenu.all.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="top-header d-flex">
+                <div class="contact-detail d-flex">
+                    <div><a href="mailto:info@ramko.pt" class="d-flex gp-10"><i class="fa-solid fa-envelope"></i>info@ramko.pt</a></div>
+                    <div><a href="mailto:351 931 431 341" class="d-flex gp-10"><i class="fa-solid fa-phone-volume"></i>+351 931 431 341</a></div>
+                </div>
+                <div>
+                    <div class="login-blk d-flex"></div>
+                </div>
+            </div>
+            <div class="bottom-header d-flex">
+                <div class="logo-blk"><img src="images/logo.avif" alt="" class="img-fluid"></div>
+                <div class="menu-blk">
+                    <ul class="menu-list d-flex">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Properties</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+                <div class="transtale notranslate">
+                    <div id="google_translate_element"></div>
+                </div>
+
+                <div class="navblk">
+                <a href="#menu" class="navicon">
+                    <span><i class="fa-solid fa-bars"></i></span>
+
+                </a>
+            </div>
+            </div>
+
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a id="about" href="#">Home</a></li>
+                <li><a id="product" href="#">Properties</a></li>
+                <li><a id="specification" href="#">About</a></li>
+                <li><a id="quality_policy" href="#">Contact Us</a></li>
+                <li><a id="infratructure" href="#">Blog</a></li>
+                <li><a id="infratructure" href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="bannerslider_wrapper">
+            <div class="banner_txt">
+                <div class="innerbanner_txt whitetxt">Start Your Journey to <br> 
+                    the Perfect Apartment!
+                </div>
+                <p class="whitetxt orangepatch">Finding your ideal apartment has never been easier, with every step designed just for you.</p>       
+            </div>
+            <div class="bannerSlider dekstopBannerSlider">    
+                <div class="banner_inner_blk"> 
+                    <div>
+                        <img src="images/slider-img1.jpg" alt="Banner1">
+                    </div>
+                </div>
+                <div class="banner_inner_blk">
+                    <div>
+                        <img src="images/slider-img2.jpg" alt="Banner1">
+                    </div>
+                </div>
+                <div class="banner_inner_blk">
+                    <div>
+                        <img src="images/slider-img3.jpg" alt="Banner1">
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-banner"> 
+                    <div><img src="images/mobile-banner.png" alt="" class="img-fluid"></div>
+            </div>
+
+            <!-- <div class="bannerSlider mobileBannerSlider">    
+                        <div class="banner_inner_blk"> 
+                                <div>
+                                    <img src="images/mobile_banner.webp" alt="Banner1">
+                                </div>
+                        </div>
+
+                        <div class="banner_inner_blk">
+                                <div>
+                                    <img src="images/mobile_banner2.webp" alt="Banner1">
+                                </div>
+                        </div>
+
+                        <div class="banner_inner_blk">
+                                <div>
+                                    <img src="images/mobile_banner3.webp" alt="Banner1">
+                                </div>
+                        </div>
+
+                        <div class="banner_inner_blk">
+                                <div>
+                                    <img src="images/mobile_banner4.webp" alt="Banner1">
+                                </div>
+                        </div>
+                    </div> -->
+    </div>
+
+
+    <section class="ourproperties_wrapper common-padding">
+        <div class="container">
+            <ul class="tabs">
+                <li class="tab-link current whitetxt" data-tab="tab-1">Purchase</li>
+                <li class="tab-link whitetxt" data-tab="tab-2">Rent</li>
+            </ul>
+            <div id="tab-1" class="tab-content current">
+                    <div class="slider">
+                            <div class="slide-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                    <div class="badge red">30% off</div>
+                                    <div class="badge blue">Buy Now</div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h2>Apartment for sale</h2>
+                                        <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                        <div class="price">
+                                            <span class="new-price">550,000.00 €</span>
+                                           
+                                        </div>
+                                        <button class="details-btn">Get More Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                    <div class="badge red">30% off</div>
+                                    <div class="badge blue">Buy Now</div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h2>Apartment for sale</h2>
+                                        <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                        <div class="price">
+                                            <span class="new-price">550,000.00 €</span>
+                                           
+                                        </div>
+                                        <button class="details-btn">Get More Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                    <div class="badge red">30% off</div>
+                                    <div class="badge blue">Buy Now</div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h2>Apartment for sale</h2>
+                                        <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                        <div class="price">
+                                            <span class="new-price">550,000.00 €</span>
+                                           
+                                        </div>
+                                        <button class="details-btn">Get More Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                    <div class="badge red">30% off</div>
+                                    <div class="badge blue">Buy Now</div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h2>Apartment for sale</h2>
+                                        <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                        <div class="price">
+                                            <span class="new-price">550,000.00 €</span>
+                                           
+                                        </div>
+                                        <button class="details-btn">Get More Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                    <div class="badge red">30% off</div>
+                                    <div class="badge blue">Buy Now</div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h2>Apartment for sale</h2>
+                                        <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                        <div class="price">
+                                            <span class="new-price">550,000.00 €</span>
+                                           
+                                        </div>
+                                        <button class="details-btn">Get More Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                    <div class="badge red">30% off</div>
+                                    <div class="badge blue">Buy Now</div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h2>Apartment for sale</h2>
+                                        <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                        <div class="price">
+                                            <span class="new-price">550,000.00 €</span>
+                                           
+                                        </div>
+                                        <button class="details-btn">Get More Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+            <div id="tab-2" class="tab-content">
+                    <div class="slider">
+                                    <div class="slide-item">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                            <div class="badge red">30% off</div>
+                                            <div class="badge blue">Buy Now</div>
+                                            </div>
+                                            <div class="card-content">
+                                                <h2>Rented</h2>
+                                                <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                                <div class="price">
+                                                    <span class="new-price">320.000.00 €</span>
+                                                
+                                                </div>
+                                                <button class="details-btn">Get More Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-item">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                            <div class="badge red">30% off</div>
+                                            <div class="badge blue">Buy Now</div>
+                                            </div>
+                                            <div class="card-content">
+                                                <h2>Reserved</h2>
+                                                <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                                <div class="price">
+                                                    <span class="new-price">320.000.00 €</span>
+                                                
+                                                </div>
+                                                <button class="details-btn">Get More Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-item">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                            <div class="badge red">30% off</div>
+                                            <div class="badge blue">Buy Now</div>
+                                            </div>
+                                            <div class="card-content">
+                                                <h2>Rented</h2>
+                                                <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                                <div class="price">
+                                                    <span class="new-price">320.000.00 €</span>
+                                                
+                                                </div>
+                                                <button class="details-btn">Get More Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-item">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                            <div class="badge red">30% off</div>
+                                            <div class="badge blue">Buy Now</div>
+                                            </div>
+                                            <div class="card-content">
+                                                <h2>Rented</h2>
+                                                <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                                <div class="price">
+                                                    <span class="new-price">320.000.00 €</span>
+                                                
+                                                </div>
+                                                <button class="details-btn">Get More Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-item">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                            <div class="badge red">30% off</div>
+                                            <div class="badge blue">Buy Now</div>
+                                            </div>
+                                            <div class="card-content">
+                                                <h2>Rented</h2>
+                                                <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                                <div class="price">
+                                                    <span class="new-price">320.000.00 €</span>
+                                                
+                                                </div>
+                                                <button class="details-btn">Get More Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-item">
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="images/apartment1.jpg" class="img-fluid" class="img-fluid">
+                                            <div class="badge red">30% off</div>
+                                            <div class="badge blue">Buy Now</div>
+                                            </div>
+                                            <div class="card-content">
+                                                <h2>Rented</h2>
+                                                <p class="subtext">Antonio Albino Machado Street, Quinta dos Barros.</p>
+                                                <div class="price">
+                                                    <span class="new-price">320.000.00 €</span>
+                                                
+                                                </div>
+                                                <button class="details-btn">Get More Details</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                    </div>
+            </div>   
+        </div>
+    </section>
+
+
+    <section class="aboutus_wrapper common-padding">
+        <div class="container">
+            <div class="about-detail-blk">
+                   <div class="about-imgblk about-blk">
+                        <div class="aboutimg"><img src="images/about-us.jpg" alt="" class="img-fluid"></div>
+                   </div> 
+
+                   <div class="about-contentblk orng-txt about-blk">
+                        <h2 class="title whitetxt">About Us</h2>
+                        <p class="whitetxt">At Ramko, we are dedicated to simplifying the journey of buying or renting real estate.  Committed to excellence, we offer a complete and comprehensive platform that makes it possible to find your ideal home or the best investment opportunity.</p>
+
+                        <p class="whitetxt">Our vision goes beyond transactions, we aim to create lasting bonds between people by creating trust and offering an unrivalled service.</p>
+
+                   </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="offer_wrapper">
+        <div class="container">
+            <div class="we-offertxt-blk">
+                <h2 class="title we-offertxt whitetxt">We offer a comprehensive<br> solution for finding and<br> managing your properties.</h2>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <section class="advantage-wrapper">
+        <div class="container common-padding ">
+            <div>
+                <h2 class="title orngtxt txt-center">Discover the advantages of living in Portugal</h2>
+            </div>
+            <div class="advantage-blk">
+                <div class="advantage-list">
+                    <img src="images/image1.jpg" alt="" class="img-fluid" />
+                    <div class="gradient-overlay"></div>
+                    <div class="adv-content">
+                    <h2 class="whitetxt">Quality Of Life</h2>
+                    </div>
+                    <button class="arrow-button">&rarr;</button>
+                </div>
+
+                <div class="advantage-list">
+                    <img src="images/image2.jpg" alt="" class="img-fluid" />
+                    <div class="gradient-overlay"></div>
+                    <div class="adv-content">
+                    <h2 class="whitetxt">Soft Weather</h2>
+                    </div>
+                    <button class="arrow-button">&rarr;</button>
+                </div>
+
+                <div class="advantage-list">
+                    <img src="images/image3.jpg" alt="" class="img-fluid" />
+                    <div class="gradient-overlay"></div>
+                    <div class="adv-content">
+                    <h2 class="whitetxt">Safe Environment</h2>
+                    </div>
+                    <button class="arrow-button">&rarr;</button>
+                </div>
+
+                <div class="advantage-list">
+                    <img src="images/image4.jpg" alt="" class="img-fluid" />
+                    <div class="gradient-overlay"></div>
+                    <div class="adv-content">
+                    <h2 class="whitetxt">Transport</h2>
+                    </div>
+                    <button class="arrow-button">&rarr;</button>
+                </div>
+
+                <div class="advantage-list">
+                    <img src="images/image5.jpg" alt="" class="img-fluid" />
+                    <div class="gradient-overlay"></div>
+                    <div class="adv-content">
+                    <h2 class="whitetxt">Quality Of Life</h2>
+                    </div>
+                    <button class="arrow-button">&rarr;</button>
+                </div>
+
+                <div class="advantage-list">
+                    <img src="images/image1.jpg" alt="" class="img-fluid" />
+                    <div class="gradient-overlay"></div>
+                    <div class="adv-content">
+                    <h2 class="whitetxt">Soft Weather</h2>
+                    </div>
+                    <button class="arrow-button">&rarr;</button>
+                </div>
+
+                <div class="advantage-list">
+                    <img src="images/image2.jpg" alt="" class="img-fluid" />
+                    <div class="gradient-overlay"></div>
+                    <div class="adv-content">
+                    <h2 class="whitetxt">Safe Environment</h2>
+                    </div>
+                    <button class="arrow-button">&rarr;</button>
+                </div>
+
+                <div class="advantage-list">
+                    <img src="images/image3.jpg" alt="" class="img-fluid" />
+                    <div class="gradient-overlay"></div>
+                    <div class="adv-content">
+                    <h2 class="whitetxt">Transport</h2>
+                    </div>
+                    <button class="arrow-button">&rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="why-choose-us ">
+        <div class="container common-padding ">
+            <div>
+                <h2 class="title whitetxt txt-center">
+                Why Choose Us?</h2>
+            </div>
+        <div class="features-section">
+        <div class="feature-box">
+                <div class="icon-circle darkorng">
+                    <i class="fa-solid fa-check-to-slot"></i>
+                </div>
+                <h3 class="minittl orngtxt">Expertise & Experience</h3>
+                <p>Over a decade of expertise in crafting exceptional group tours for domestic and international destinations.</p>
+                </div>
+
+                <div class="feature-box">
+                <div class="icon-circle darkorng">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <h3 class="minittl orngtxt">Personalized Adventures</h3>
+                <p>Tailor-made travel experiences designed to match your unique preferences and interests.</p>
+                </div>
+
+                <div class="feature-box">
+                <div class="icon-circle darkorng">
+                    <i class="fa-solid fa-sliders"></i>
+                </div>
+                <h3 class="minittl orngtxt">Innovative Approach</h3>
+                <p>Cutting-edge technology and in-depth travel knowledge ensure seamless and memorable journeys.</p>
+                </div>
+
+                <div class="feature-box">
+                <div class="icon-circle darkorng">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <h3 class="minittl orngtxt">Comprehensive Services</h3>
+                <p>From guided group tours to customized vacations and corporate retreats, we handle it all.</p>
+            </div>
+        </div>
+            
+            
+        </div>
+    </section>
+
+
+
+<section>
+        <div class="contact-container">
+        <div class="contact-info">
+            <h2 class="minittl ">Contact Now</h2>
+            <p>Feel free to reach out for any inquiries, collaborations, or assistance.</p>
+            <div class="info-block">
+                <div class="contact-icon-blk"><i class="fa-solid fa-location-dot"></i></div>
+                <p>RTC 2, T.T.C. Industrial Area, MIDC Industrial Area, Rabale, Navi Mumbai, Maharashtra 400701</p>
+            </div>
+            <div class="info-block">
+                <div class="contact-icon-blk"><i class="fa-solid fa-phone-volume"></i></div>
+                <p>098205 64090</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2 class="minittl ">Get In Touch</h2>
+            <form>
+                <div class="form-row">
+                <input type="text" placeholder="First Name *" required>
+                <input type="text" placeholder="Last Name *" required>
+                </div>
+                <div class="form-row">
+                <input type="email" placeholder="Email ID*" required>
+                <input type="tel" placeholder="Phone *" required>
+                </div>
+                <div class="form-row">
+                <input type="text" placeholder="Service Looking for *" required>
+                </div>
+                <div class="form-row">
+                <textarea name="" id="" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="sendbtn">SEND</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-links">
+      <a href="#">Terms & Conditions</a>
+      <span>-</span>
+      <a href="#">Privacy Policy</a>
+      <span>-</span>
+      <a href="#">Disclaimer</a>
+      <span>-</span>
+      <a href="#">Sitemap</a>
+      <p>© Copyright 2025. All Rights Reserved. <strong>RAMKO UNIPESSOAL LDA </strong>.</p>
+    </div>
+
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('.bannerSlider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            speed: 200,
+            infinite:true,
+            autoplay:true,
+            cssEase: 'linear',
+            
+        });
+
+        });
+    </script>
+
+    <script src="js/element.js"></script>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: "en,pt",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+	
+            $('ul.tabs li').click(function(){
+                var tab_id = $(this).attr('data-tab');
+
+                $('ul.tabs li').removeClass('current');
+                $('.tab-content').removeClass('current');
+
+                $(this).addClass('current');
+                $("#"+tab_id).addClass('current');
+            })
+
+        })
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.tab-link').click(function() {
+            var tab_id = $(this).attr('data-tab');
+
+            $('.tab-link').removeClass('current');
+            $('.tab-content').removeClass('current');
+
+            $(this).addClass('current');
+            $("#" + tab_id).addClass('current');
+
+            setTimeout(function () {
+            $('.slider').slick('setPosition');
+            }, 100); 
+        });
+
+        $('.slider').slick({
+            slidesToShow: 4.5,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            speed: 600,
+            infinite: true,
+            autoplay: true,
+            responsive: [
+                {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+                }
+            ]
+        });
+        });
+
+    </script>
+
+<script src="js/jquery.mmenu.all.js"></script>
+<script>
+    $(function() {
+            $("nav#menu").mmenu({
+                offCanvas: {
+                    position: "right",
+                    zposition: "front",
+                    moveBackground: "front",
+                },
+                navbars: [{
+                    position: 'top',
+                    content: [
+                        'prev',
+                        'title',
+                        'close'
+                    ]
+                }, ],
+                onClick: {
+                    close: true,
+                    preventDefault: false,
+                }
+
+            });
+    });
+</script>
+
+
+
+
+   
+
+</body>
+
+
+</html> 
